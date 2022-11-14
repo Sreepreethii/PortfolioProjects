@@ -135,3 +135,6 @@ join covid_vaccinations cv on
 cd.location = cv.location and cd.date = cv.date
 where cd.continent is NOT NULL
 -- order by 2,3; 
+
+select *
+from V_PercentPopulationVaccinated
